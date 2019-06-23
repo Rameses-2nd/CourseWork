@@ -5,7 +5,7 @@ training set (train.csv)
 test set (test.csv)
 The training set should be used to build machine learning models. For the training set, I provide the outcome (also known as the “ground truth”) for each passenger. 
 
-The test set should be used to see how well the model performs on unseen data. 
+The test set should be used to see how well the model performs on unseen data.But I didn't fixed and ground truth now. 
 
 I also include gender_submission.csv, a set of predictions that assume all and only female passengers survive, as an example of what a submission file should look like.
 
