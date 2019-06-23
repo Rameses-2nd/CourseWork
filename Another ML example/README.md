@@ -3,7 +3,7 @@ The data has been split into two groups:
 
 training set (train.csv)
 test set (test.csv)
-The training set should be used to build machine learning models. For the training set, I provide the outcome (also known as the ìground truthî) for each passenger. 
+The training set should be used to build machine learning models. For the training set, I provide the outcome (also known as the ‚Äúground truth‚Äù) for each passenger. 
 
 The test set should be used to see how well the model performs on unseen data. 
 
@@ -21,9 +21,11 @@ age: Age is fractional if less than 1. If the age is estimated, is it in the for
 
 sibsp: The dataset defines family relations in this way...
 Sibling = brother, sister, stepbrother, stepsister
-Spouse = husband, wife (mistresses and fiancÈs were ignored)
+Spouse = husband, wife (mistresses and fianc√©s were ignored)
 
 parch: The dataset defines family relations in this way...
 Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.
+
+OUTPUT: It will show the PassengerId and who Survived
